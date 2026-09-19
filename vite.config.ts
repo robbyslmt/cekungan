@@ -13,6 +13,7 @@ const __dirname = path.dirname(__filename);
 // GitHub Pages subpaths, opened locally, or hosted under any subpath.
 export default defineConfig({
   base: "./",
+  server: { host: "127.0.0.1" },
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {
