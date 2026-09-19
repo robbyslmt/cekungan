@@ -1,0 +1,61 @@
+{
+  "url": "http://localhost:4190/",
+  "checks": [
+    {
+      "name": "preloader dismissed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "has <title>",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "single-file (JS inlined)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no external local asset refs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "topo texture element present (subpath asset)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no failed LOCAL requests",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Pexels remote blocked (informational)",
+      "pass": true,
+      "detail": "10 pexels reqs failed (expected in sandbox)"
+    },
+    {
+      "name": "WCAG AA contrast (size-aware)",
+      "pass": true,
+      "detail": "99 solid-bg text elements all pass their threshold · 56 over-video labels scrim-checked"
+    },
+    {
+      "name": "no horizontal overflow @1440",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no horizontal overflow @360",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "content renders on mobile",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "failed": []
+}
